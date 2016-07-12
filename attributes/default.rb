@@ -65,6 +65,25 @@ default['kibana']['config']['source'] = nil
 default['kibana']['highlighted_field'] = '@message'
 default['kibana']['primary_field'] = '@message'
 default['kibana']['default_index'] = '@message'
+# Panel_names for config.js
+default['kibana']['panels'] = %w(
+  histogram
+  map
+  pie
+  table
+  filtering
+  timepicker
+  text
+  fields
+  hits
+  dashcontrol
+  column
+  derivequeries
+  trends
+  bettermap
+  query
+  terms
+)
 
 #<> The host to create apache vhost for.
 default['kibana']['apache']['host'] = node['fqdn']
