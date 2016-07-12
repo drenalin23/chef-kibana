@@ -1,3 +1,5 @@
+* extract panel_names from config.js into an attribute called panels to allow for easier override in wrapper cookbooks. Submitted by Scott (drenalin23)
+
 ## v.0.1.11:
 * removed support for kibana2 ( use 0.1.10 releases )
 * added serverspec tests
