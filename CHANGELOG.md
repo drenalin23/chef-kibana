@@ -1,4 +1,6 @@
 * extract panel_names from config.js into an attribute called panels to allow for easier override in wrapper cookbooks. Submitted by Scott (drenalin23)
+* fix serverspec filenames
+* pin ohai cookbook to <4.0.0 until issue is fixed which causes kitchen/nginx to fail (https://github.com/miketheman/nginx/issues/419)
 
 ## v.0.1.11:
 * removed support for kibana2 ( use 0.1.10 releases )
